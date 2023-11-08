@@ -1,6 +1,6 @@
 # SV-Learner: Support-Vector Contrastive Learning for Robust Learning with Noisy Labels
 
-<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/SV-Learner.png"  width="800px" />
+<img src="https://github.com/yanliji/SV-Learner/blob/main/figures/framework.pdf"  width="800px" />
 
 This is the official PyTorch implementation of IJCAI 2023 paper (SV-Learner: Support Vector-drived Contrastive Learning for Robust Learning with Noisy labels).
 
