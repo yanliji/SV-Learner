@@ -29,22 +29,22 @@ For Clothing1M and Webvision, you need to download them from their corresponsing
 ### Training for CIFAR-10/100
 Example runs on CIFAR-10 dataset with 20% symmetric noise:
 ```
-  python Train_cifar_sv-learner.py --dataset cifar10 --num_class 10 --data_path ./data/cifar10 --noise_mode 'sym' --r 0.2 --lambda_u=0
+  python Train_cifar_svmfix_svm.py --dataset cifar10 --num_class 10 --data_path ./data/cifar10 --noise_mode 'sym' --r 0.2 --lambda_u=0
 ```
 
 Example runs on CIFAR-10 dataset with 50% symmetric noise:
 ```
-  python Train_cifar_sv-learner.py --dataset cifar10 --num_class 10 --data_path ./data/cifar10 --noise_mode 'sym' --r 0.5 --lambda_u=25
+  python Train_cifar_svmfix_svm.py --dataset cifar10 --num_class 10 --data_path ./data/cifar10 --noise_mode 'sym' --r 0.5 --lambda_u=25
 ```
 
 Example runs on CIFAR-100 dataset with 90% symmetric noise:
 ```
-  python Train_cifar_sv-learner.py --dataset cifar100 --num_class 100 --data_path ./data/cifar100 --noise_mode 'sym' --r 0.9 --lambda_u=150
+  python Train_cifar_svmfix_svm.py --dataset cifar100 --num_class 100 --data_path ./data/cifar100 --noise_mode 'sym' --r 0.9 --lambda_u=150
 ```
 
 Example runs on CIFAR-10 dataset with 40% asymmetric noise:
 ```
-  python Train_cifar_sv-learner.py --dataset cifar10 --num_class 10 --data_path ./data/cifar10 --noise_mode 'asym' --r 0.4 --lambda_u=25
+  python Train_cifar_svmfix_svm.py --dataset cifar10 --num_class 10 --data_path ./data/cifar10 --noise_mode 'asym' --r 0.4 --lambda_u=25
 ```
 
 ## Results
