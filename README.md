@@ -6,7 +6,7 @@ This is the official PyTorch implementation of
 Transactions on Knowledge and Data Engineering paper (SV-Learner: Support-Vector Contrastive Learning for Robust Learning with Noisy Labels).
 
 ## Abstract
-Noisy-label data inevitably gives rise to confusion in various perception applications. In this work, we revisit the theory of support vector machines (SVM) which mines support vectors to build the maximum-margin hyperplane for robust classification, and propose a robust-to-noise deep learning framework, SV-Learner, including the Support Vector Contrastive Learning (SVCL) and Support Vector-based Noise Screening (SVNS). The SV-Learner mines support vectors to solve the learning problem with noisy labels (LNL) reliably. Support Vector Contrastive Learning (SVCL) adopts support vectors as positive and negative samples, driving robust contrastive learning to enlarge the feature distribution margin for learning convergent feature distributions. Support Vector-based Noise Screening (SVNS) uses support vectors with valid labels to assist in screening noisy ones from confusable samples for reliable clean-noisy sample screening. Finally, Semi-Supervised classification is performed to realize the recognition of clean noisy samples. Extensive experiments are evaluated on CIFAR- 10, CIFAR-100, Clothing1M, and Webvision datasets, and they demonstrate the effectiveness of our proposed approach.
+Noisy-label data inevitably gives rise to confusion in various perception applications. In this work, we revisit the theory of support vector machines (SVM) which mines support vectors to build the maximum-margin hyperplane for robust classification, and propose a robust-to-noise deep learning framework, SV-Learner, including the Support Vector Contrastive Learning (SVCL) and Support Vector-based Noise Screening (SVNS). The SV-Learner mines support vectors to solve the learning problem with noisy labels (LNL) reliably. Support Vector Contrastive Learning (SVCL) adopts support vectors as positive and negative samples, driving robust contrastive learning to enlarge the feature distribution margin for learning convergent feature distributions. Support Vector-based Noise Screening (SVNS) uses support vectors with valid labels to assist in screening noisy ones from confusable samples for reliable clean-noisy sample screening. Finally, Semi-Supervised classification is performed to realize the recognition of clean noisy samples. Extensive experiments are evaluated on CIFAR-10, CIFAR-100, Clothing1M, and Webvision datasets, demonstrating our proposed approach's effectiveness.
 
 ## Preparation
 - numpy
@@ -62,6 +62,3 @@ Visualization of embedded features on CIFAR-10 with 90% symmetric noise.
 The t-SNE visualization of support vectors in CIFAR-10 with 50% symmetric noise.
 
 <img src="https://github.com/yanliji/SV-Learner/blob/main/figure/support%20vectors.jpg"  width="360px" />
-
-## License
-This project is licensed under the terms of the MIT license.
